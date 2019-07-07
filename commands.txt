@@ -31,10 +31,10 @@ pm disable-user --user 0 com.dsi.ant.sample.acquirechannels
 pm disable-user --user 0 com.dsi.ant.server
 pm disable-user --user 0 com.dsi.ant.service.socket
 
-pm disable-user --user 0 com.facebook.appmanager
-pm disable-user --user 0 com.facebook.katana
-pm disable-user --user 0 com.facebook.services
-pm disable-user --user 0 com.facebook.system
+pm uninstall  -k --user 0 com.facebook.appmanager
+pm uninstall  -k --user 0 com.facebook.katana
+pm uninstall  -k --user 0 com.facebook.services
+pm uninstall  -k --user 0 com.facebook.system
 
 pm disable-user --user 0 com.google.ar.core 
 pm disable-user --user 0 com.google.android.apps.books
